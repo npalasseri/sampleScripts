@@ -1,0 +1,7 @@
+#!/bin/bash
+GRINDERPATH=$GRINDER_HOME
+CLASSPATH=$GRINDERPATH/lib/grinder.jar
+GRINDER_WORKSPACE="$HOME/Workspaces/grinderScripts"
+echo "From here: "$CLASSPATH
+export CLASSPATH GRINDER_WORKSPACE
+
